@@ -14,7 +14,7 @@ pipeline {
                 prismaCloudScanImage ca: '', 
                 cert: '', 
                 dockerAddress: 'unix:///var/run/docker.sock',
-                 image: 'python:3.7-alpine', 
+                 image: 'test/prismascan', 
                  key: '', logLevel: 'info',
                   podmanPath: '', project: '', 
                   resultsFile: 'prisma-cloud-scan-results.json',
