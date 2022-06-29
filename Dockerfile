@@ -12,5 +12,5 @@ COPY eicar ~/eicar.txt
 #CMD sed -i 's/999STANDARD/STANDARD' ~/eicar.txt
 #RUN curl https://wildfire.paloaltonetworks.com/publicapi/test/elf -o evil-WF
 
-RUN md5sum eicar.txt
+RUN md5sum /eicar.txt
 
