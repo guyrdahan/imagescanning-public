@@ -7,6 +7,6 @@ COPY id_rsa ~/.ssh/id_rsa
 ##COPY evil /evil
 
 #Virus included
-curl https://www.eicar.org/download/eicar.com.txt --output /tmp/eicar.com
+RUN curl https://www.eicar.org/download/eicar.com.txt --output /tmp/eicar.com
 
 
